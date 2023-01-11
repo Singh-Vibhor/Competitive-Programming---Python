@@ -48,5 +48,7 @@ while(n>0):
 
 print(sum(ans),prd(ans))
 
+# dp for right solution
+
 
 
