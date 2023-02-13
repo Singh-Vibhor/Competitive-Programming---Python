@@ -7,11 +7,3 @@ for _ in range(int(input())):
         d[a[x]].append(x+1)
 
     print(d)
-
-    ans=0
-    for x in d.keys():
-        l=d[x]
-        l1=len(l)
-        for y in len(l1):
-            if y==0:
-                
