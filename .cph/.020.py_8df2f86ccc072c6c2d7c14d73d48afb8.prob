@@ -1,0 +1,1 @@
+{"name":"Local: 020","url":"c:\\Vibhor\\Python\\020.py","tests":[{"id":1683367504638,"input":"5 5\n1 2\n2 3\n3 4\n4 5\n5 6\n1 6","output":"5"},{"id":1683367568727,"input":"5 3\n1 3\n1 2\n4 5\n1 4","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Vibhor\\Python\\020.py","group":"local","local":true}
