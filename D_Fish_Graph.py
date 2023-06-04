@@ -40,7 +40,7 @@ for _ in range(int(input())):
     visited = [0]*(n+1)
     findCycles(2, 0, [0]*(n+1))
     f = 1
-    print(cycles)
+    #print(cycles)  
     for x in cycles:
         if f==0: break
         d=defaultdict(int)

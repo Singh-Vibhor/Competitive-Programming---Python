@@ -4,6 +4,7 @@ for _ in range(int(input())):
     for x in range(1,len(s)):
         if s[x]!=s[x-1]:
             f=0
+            break
     if f:
         print(-1)
     else:
