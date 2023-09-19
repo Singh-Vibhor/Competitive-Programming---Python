@@ -20,12 +20,12 @@ for _ in range(int(input())):
     # the loop from there
     # start search from (a+1)/2
     # implement it later
-    
+      
     while(True):
         if dpt[a]>k or a==1:
             print(a)
             break
-        else:
+        else:   
             k-=dpt[a]
             if a%2:
                 a1=int((a+1)/2)
@@ -42,6 +42,3 @@ for _ in range(int(input())):
     
     
 
-        
-1 2 3 4 5
-4 5 1 2 3
