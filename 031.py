@@ -7,7 +7,7 @@ def mergesort(l):
     a1 = mergesort(a1)
     a2 = mergesort(a2)
 
-    p1,p2,p3 = 0, 0, 0
+    p1,p2,p3 = 0, 0, 0 
 
     while p1<len(a1) and p2<len(a2):
         if a1[p1]<a2[p2]:

@@ -14,10 +14,22 @@ def linput():
 def printl(l):
     return print(' '.join(map(str,l)))
 
+def convertBits(l):
+    for x in range(len(l)):
+        l[x] = [*bin(l[x]).replace('0b', '')]
+        l[x] = ['0']*(32-len(l[x]))+l[x]
+        l[x] = l[x][::-1]
 
 
+
+#remember binary search
+#bitwise operator -> bitmask
 def solve():
-    pass
+    n,k = linput()
+    s = input()
+    crr = [0,0]
+
+    
 
 
 

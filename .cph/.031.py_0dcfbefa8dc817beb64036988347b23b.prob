@@ -1,1 +1,1 @@
-{"name":"Local: 031","url":"c:\\Vibhor\\Python\\031.py","tests":[{"id":1692176553846,"input":"5 4 7 8 1 9 2 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Vibhor\\Python\\031.py","group":"local","local":true}
+{"name":"Local: 031","url":"c:\\Vibhor\\Python\\031.py","tests":[{"id":1692176553846,"input":"5 7 0 10 8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Vibhor\\Python\\031.py","group":"local","local":true}

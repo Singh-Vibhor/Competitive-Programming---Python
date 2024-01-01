@@ -58,7 +58,7 @@ def solve():
     
     mp = defaultdict(str)
     for x in range(n):
-        mp[str(query(x-1))]+=s[x]
+        mp[str(query(x-1))]+=str(x)
     a1 = ""
     for x in sorted(list(mp.keys())):
         a1+=mp[x]
